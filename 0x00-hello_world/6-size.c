@@ -10,10 +10,14 @@
 */
 int main(void)
 {
-printf("the size of a char:\n ", sizeof(char));
-printf("the size of an int:\n ", sizeof(int));
-printf("the size of a long int:\n ", sizeof(int));
-printf("the size of a long long int:\n ", sizeof(long));
-printf("the size of a float:\n ", sizeof(float));
+char a;
+int b;
+long c;
+float d;
+printf("the size of a char:\n ", sizeof(a));
+printf("the size of an int:\n ", sizeof(b));
+printf("the size of a long int:\n ", sizeof(b));
+printf("the size of a long long int:\n ", sizeof(c));
+printf("the size of a float:\n ", sizeof(d));
 return (0);
 }
