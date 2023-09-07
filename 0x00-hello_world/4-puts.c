@@ -1,4 +1,3 @@
-#!/bin/bash
 #include<stdio.h>
 int main (void){
 	char str[45] = ""Programming is like building a multilingual puzzle\n";
