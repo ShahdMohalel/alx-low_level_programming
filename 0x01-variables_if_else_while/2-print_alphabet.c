@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - putchar(ch[i])
+ * main - putchar(i)
  * void: no parameters
  * Return: 0 always
 */
