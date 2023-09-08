@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - putchar(a,z,ex:q,e)
+ * main - putchar(a,z,ex:q,ie)
  * void: no parameters
  * Return: 0 always
 */
