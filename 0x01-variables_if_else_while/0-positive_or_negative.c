@@ -1,21 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-*main - if condition
-{
-printf("%d is positive\n", n);
-}
-else if(n<0)
-{
-printf("%d is negative\n", n);
-}
-else
-{
-printf("%d is zero\n", n);
-}
-*void - take no parameters
-*Return - 0
+/**
+ * main - printf "is positive, is negative, is zero"
+ * void: no parameters
+ * Return: 0 always
 */
 int main(void)
 {
