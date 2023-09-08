@@ -8,9 +8,9 @@
 */
 int main(void)
 {
-int n = 0;
-srand(time(0));
+int n = 1;
 int m = n % 10; /* calculate the last digit */
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (m > 5)
 {
