@@ -12,7 +12,6 @@ if (n > 0)
 putchar('+');
 putchar('1');
 putchar('\n');
-return (1);
 }
 else if (n < 0)
 {
