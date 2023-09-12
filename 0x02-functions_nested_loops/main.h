@@ -3,5 +3,5 @@
  * parameters: char c
  */
 int i;
-extern char sent[8];
+extern char sent[];
 int _putchar(char c);
