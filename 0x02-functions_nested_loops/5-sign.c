@@ -12,7 +12,7 @@ if (n > 0)
 putchar('+');
 putchar(',');
 putchar(' ');
-putchar(1, '0');
+putchar('1');
 return (1);
 }
 else if (n < 0)
@@ -20,7 +20,7 @@ else if (n < 0)
 putchar('-');
 putchar(',');
 putchar(' ');
-putchar(1, '0');
+putchar('1');
 return (1);
 }
 else
@@ -28,7 +28,7 @@ else
 putchar('0');
 putchar(',');
 putchar(' ');
-putchar(0, '0');
+putchar('0');
 return (0);
 }
 }
