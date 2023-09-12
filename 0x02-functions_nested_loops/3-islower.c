@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _islower -check if character is a lowercase
- * parameters: int c
+ * @c: The parameter 'c' (or member 'c') represents ASCII number of a character
  * Return: 1 if true / 0 if false
 */
 int _islower(int c)
