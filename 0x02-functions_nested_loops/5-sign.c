@@ -9,17 +9,15 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-putchar('\n');
-return (+1);
+return (1);
 }
 else if (n < 0)
 {
-putchar('\n');
-return (-1);
+return (1);
 }
 else
 {
-putchar('\n');
-return (00);
+
+return (0);
 }
 }
