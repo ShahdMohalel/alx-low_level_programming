@@ -5,8 +5,7 @@
  * parameter: no parameter
  * Return: result
 */
-int _abs(int)
+int _abs(int n)
 {
-int result;
-return (result / -1);
+return (n / -1);
 }
