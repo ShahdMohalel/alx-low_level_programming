@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs - absolute
- * parameter: 'n' is a number
+ * @n: the integer 'n' will be a positive number
  * Return: result
 */
 int _abs(int n)
