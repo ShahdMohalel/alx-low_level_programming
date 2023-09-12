@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include "main.h"
+#include "main.h"
 /**
- * main - print_alphabet();
- * void: no parameters
- * Return: 0 always
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 print_alphabet();
