@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-sent[] = "_putchar";
+sent[] = ["_putchar"];
 for (i = 0; i < 8; i++)
 {
 putchar(sent[i]);
