@@ -7,5 +7,11 @@
 */
 int print_last_digit(int e)
 {
-return (e % 10);
+int end;
+end = e % 10;
+char last;
+last = '0' + end;
+putchar(last);
+putchar('\n');
+return (end);
 }
