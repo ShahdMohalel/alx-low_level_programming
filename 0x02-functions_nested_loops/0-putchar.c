@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<main.h>
+#include "main.h"
 /**
  * main - putchar(sent[i])
  * void: no parameters
