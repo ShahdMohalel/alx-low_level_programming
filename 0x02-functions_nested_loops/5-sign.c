@@ -7,17 +7,25 @@
 */
 int print_sign(int n)
 {
+int sign;
+char ss;
 if (n > 0)
 {
-return (1);
+ss = '+';
+sign = 1;
+return (ss);
 }
 else if (n < 0)
 {
-return (1);
+ss = '-';
+sign = 1;
+return (ss);
 }
 else
 {
-
-return (0);
+ss = '0';
+sign = 0;
+return (ss);
 }
+return (sign);
 }
