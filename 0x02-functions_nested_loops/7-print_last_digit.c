@@ -8,7 +8,6 @@
 int print_last_digit(int e)
 {
 int end;
-end = e % 10;
 if (e < 0)
 {
 end = e % 10;
@@ -18,6 +17,5 @@ else
 {
 end = e % 10;
 }
-putchar('0' + end);
 return (end);
 }
