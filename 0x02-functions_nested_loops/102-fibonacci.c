@@ -7,11 +7,23 @@
 */
 int main(void)
 {
-int Fibonacci[50];
-for (i = 1; i < 50; i++)
+int Fib[50];
+fib[0] = 1;
+fib[1] = 2;
+for (i = 2; i < 50; i++)
 {
-Fibonacci[i] = i + (i - 1);
-printf("%d, ", Fibonacci[i]);
+Fib[i] = fib[i - 1] + fib[i - 2];
+}
+for (i = 0; i < 50; i++)
+{
+if (i < 49)
+{
+printf("%d, ", fib[i]);
+}
+else
+{
+printf("%d", fib[i]);
+}
 }
 return (0);
 }
