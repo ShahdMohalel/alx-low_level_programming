@@ -5,10 +5,12 @@
  * @e: The parameter 'e' represents the number
  * Return: (e % 10)
 */
-int print_last_digit(int e)
+void print_last_digit(int e)
 {
 int end;
 end = e % 10;
 putchar(end + '0');
-return (end);
+putchar(end + '0');
+putchar('\n');
+return;
 }
