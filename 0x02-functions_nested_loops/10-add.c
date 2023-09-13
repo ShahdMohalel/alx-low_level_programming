@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * add - adds two numbers
- * 'a':an integer number
- * 'b':an integer number
+ * @a: the parameter 'a' represents first num.
+ * @b: the parameter 'b' represents second num.
  * Return: "result" of the addition 'a'+'b'
 */
 int add(int a, int b)
