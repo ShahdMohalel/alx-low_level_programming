@@ -7,25 +7,23 @@
 */
 int print_sign(int n)
 {
-int sign;
-char ss;
-if (n > 0)
+if (n < 0)
 {
-ss = '+';
-sign = 1;
-return (ss);
+putchar('-');
+putchar('0' + 1);
+putchar('\n');
 }
-else if (n < 0)
+else if (n > 0)
 {
-ss = '-';
-sign = 1;
-return (ss);
+putchar('+');
+putchar('0' + 1);
+putchar('\n');
 }
 else
 {
-ss = '0';
-sign = 0;
-return (ss);
+putchar('0' + 0);
+putchar('0' + 0);
+putchar('\n');
 }
-return (sign);
+return (0);
 }
