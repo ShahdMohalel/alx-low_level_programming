@@ -12,10 +12,12 @@ if (e < 0)
 {
 end = e % 10;
 end = end / -1;
+return (end);
 }
 else
 {
 end = e % 10;
+return (end);
 }
 return (end);
 }
