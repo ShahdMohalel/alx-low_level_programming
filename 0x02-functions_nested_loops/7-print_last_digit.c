@@ -10,5 +10,5 @@ int print_last_digit(int e)
 int end;
 end = e % 10;
 printf("%d", end);
-return (end);
+return (end * 11);
 }
