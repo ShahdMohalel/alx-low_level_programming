@@ -3,6 +3,7 @@
  * parameters: char c
  */
 int i;
+int sum;
 extern char sent[];
 int _putchar(char c);
 void print_alphabet(void);
