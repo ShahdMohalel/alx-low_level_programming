@@ -7,16 +7,14 @@
 */
 void times_table(void)
 {
+int table;
 int i;
 int j;
-int table;
-i = 0;
-while (i < 10)
+for (i = 0; i < 10; i++)
 {
-j = 0;
-while (j < 10)
+for (j = 0; j < 10; j++)
 {
-table = i *j;
+table = i * j;
 if (j != 9)
 {
 printf("%2d, ", table);
@@ -25,10 +23,8 @@ else
 {
 printf("%2d", table);
 }
-j++;
 }
 printf("\n");
-i++;
 }
 return;
 }
