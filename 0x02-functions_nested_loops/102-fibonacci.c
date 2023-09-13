@@ -12,5 +12,6 @@ for (i = 1; i < 50; i++)
 {
 Fibonacci[i] = i + (i - 1);
 printf("%d, ", Fibonacci[i]);
+}
 return (0);
 }
