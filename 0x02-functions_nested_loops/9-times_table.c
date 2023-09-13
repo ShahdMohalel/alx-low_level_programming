@@ -21,7 +21,7 @@ printf("%2d, ", table);
 }
 else
 {
-printf("%2d", table);
+printf("%d", table);
 }
 }
 printf("\n");
