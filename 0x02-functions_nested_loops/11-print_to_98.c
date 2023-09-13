@@ -16,7 +16,7 @@ printf("%d, ", i);
 }
 else
 {
-printf("%d", i);
+printf("%d\n", i);
 }
 }
 return;
