@@ -19,11 +19,11 @@ while (j < 10)
 table = i *j;
 if (j != 9)
 {
-printf("%d, ", table);
+printf("%2d, ", table);
 }
 else
 {
-printf("%d", table);
+printf("%2d", table);
 }
 j++;
 }
