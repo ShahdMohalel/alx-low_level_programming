@@ -10,18 +10,28 @@ void times_table(void)
 int table;
 int i;
 int j;
+int zero;
+zero = 0;
 for (i = 0; i < 10; i++)
 {
 for (j = 0; j < 10; j++)
 {
-table = i * j;
-if (j != 9)
+if (j == 0)
 {
-printf("%2d, ", table);
+printf("%d", zero);
+}
+else if (i == 0 && (j == 0 && i == 0))
+{
+printf("%2d, ", zero);
 }
 else
 {
-printf("%d", table);
+table = i * j;
+if (j != 0)
+{
+printf(", ");
+}
+printf("%2d", table);
 }
 }
 printf("\n");
