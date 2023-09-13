@@ -18,6 +18,6 @@ else
 {
 end = e % 10;
 }
-printf("%d", end);
+putchar('0', end);
 return (end);
 }
