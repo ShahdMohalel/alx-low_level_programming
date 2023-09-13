@@ -8,7 +8,8 @@
 int print_last_digit(int e)
 {
 int end;
+int end_D
 end = e % 10;
-printf("%d", end);
-return (end);
+end_D = end * 11;
+return (end_D);
 }
