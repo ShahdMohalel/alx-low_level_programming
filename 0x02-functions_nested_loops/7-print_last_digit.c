@@ -9,6 +9,15 @@ int print_last_digit(int e)
 {
 int end;
 end = e % 10;
+if (e < 0)
+{
+end = e % 10;
+end = end / -1;
+}
+else
+{
+end = e % 10;
+}
 printf("%d", end);
-return (end * 11);
+return (end);
 }
