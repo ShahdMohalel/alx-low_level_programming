@@ -18,9 +18,9 @@ int i;
 int j;
 int zero;
 zero = 0;
-for (i = n; i < n; i++)
+for (i = 0; i < n; i++)
 {
-for (j = n; j < n; j++)
+for (j = 0; j < n; j++)
 {
 if (j == 0)
 {
@@ -28,7 +28,7 @@ printf("%d", zero);
 }
 else if (i == 0 && (j == 0 && i == 0))
 {
-printf("%2d, ", zero);
+printf("%3d, ", zero);
 }
 else
 {
@@ -37,7 +37,7 @@ if (j != 0)
 {
 printf(", ");
 }
-printf("%2d", table);
+printf("%3d", table);
 }
 }
 printf("\n");
