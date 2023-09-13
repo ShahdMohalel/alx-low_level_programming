@@ -18,6 +18,6 @@ else
 {
 end = e % 10;
 }
-putchar('0', end);
+putchar('0' + end);
 return (end);
 }
