@@ -18,9 +18,9 @@ int i;
 int j;
 int zero;
 zero = 0;
-for (i = 0; i < 10; i++)
+for (i = n; i < n; i++)
 {
-for (j = 0; j < 10; j++)
+for (j = n; j < n; j++)
 {
 if (j == 0)
 {
