@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-int fib[50];
+long long int fib[50];
 fib[0] = 1;
 fib[1] = 2;
 for (i = 2; i < 50; i++)
