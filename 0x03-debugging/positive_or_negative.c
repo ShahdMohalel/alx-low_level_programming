@@ -2,22 +2,22 @@
 #include "main.h"
 /**
  * positive_or_negative - printf "is positive, is negative, is zero"
- * void: no parameters
+ * @i: parameter 'i' represents the number
  * Return: no return
 */
-void positive_or_negative(int n)
+void positive_or_negative(int i)
 {
-if (n > 0)
+if (i > 0)
 {
-printf("%d is positive\n", n);
+printf("%d is positive\n", i);
 }
-else if (n < 0)
+else if (i < 0)
 {
-printf("%d is negative\n", n);
+printf("%d is negative\n", i);
 }
 else
 {
-printf("%d is zero\n", n);
+printf("%d is zero\n", i);
 }
 return;
 }
