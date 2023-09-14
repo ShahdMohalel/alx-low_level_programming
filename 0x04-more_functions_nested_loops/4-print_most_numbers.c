@@ -16,7 +16,7 @@ _putchar('0' + i);
 }
 else
 {
-break;
+continue;
 }
 }
 _putchar('\n');
