@@ -3,7 +3,7 @@
 /**
  * more_numbers - print numbers
  * void: no parameters.
- * Return: no return
+ * Return: no return.
 */
 void more_numbers(void)
 {
@@ -14,8 +14,8 @@ for (i = 0; i <= 10; i++)
 for (j = 0; j <= 14; j++)
 {
 _putchar('0' + j);
-_putchar('\n');
 }
+_putchar('\n');
 }
 _putchar('\n');
 return;
