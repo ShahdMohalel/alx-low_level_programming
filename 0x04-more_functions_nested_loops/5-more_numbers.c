@@ -15,15 +15,15 @@ for (j = 0; j <= 14; j++)
 {
 if (j > 9)
 {
-putchar('0' + j / 10);
-putchar('0' + j % 10);
+_putchar('0' + j / 10);
+_putchar('0' + j % 10);
 }
 else
 {
-putchar('0' + j);
+_putchar('0' + j);
 continue;
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
