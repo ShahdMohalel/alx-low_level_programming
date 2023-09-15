@@ -38,15 +38,4 @@ m = n % 100;
 _putchar('0' + m / 10);
 _putchar('0' + n % 10);
 }
-else if (n >= 10000 && n <= 99999)
-{
-_putchar('0' + n / 10000);
-k = n / 1000;
-_putchar('0' + k % 10);
-l = n / 100;
-_putchar('0' + l % 10);
-m = n % 100;
-_putchar('0' + m / 10);
-_putchar('0' + n % 10);
-}
 }
