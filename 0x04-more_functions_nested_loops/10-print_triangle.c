@@ -5,22 +5,22 @@
  * Return: no return.
 */
 void print_triangle(int size)
-int row;
-int space;
-int hash;
 {
+int r;
+int s;
+int h;
 if (size <= 0)
 {
 _putchar('\n');
 return;
 }
-for (row = 1; row <= size; row++)
+for (r = 1; r <= size; r++)
 {
-for (space = 0; space < size - row; space++)
+for (s = 0; s < size - r; s++)
 {
 _putchar(' ');
 }
-for (hash = 0; hash < row; hash++)
+for (h = 0; h < r; h++)
 {
 _putchar('#');
 }
