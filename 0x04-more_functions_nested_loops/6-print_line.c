@@ -12,12 +12,11 @@ for (i = 0; i <= n; i++)
 {
 if (i <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
-putchar('_');
+_putchar('_');
 }
 }
-putchar('\n');
 }
