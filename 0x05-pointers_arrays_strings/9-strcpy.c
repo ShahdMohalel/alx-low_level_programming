@@ -5,7 +5,7 @@
  * @src: The parameter "*src" represents source of copy
  * Return: returns the pointer "dest"
 */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 int i;
 int count = 0;
