@@ -14,7 +14,7 @@ count++;
 }
 for (i = count - 1; i >= 0; i--)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
