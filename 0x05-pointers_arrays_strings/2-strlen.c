@@ -7,24 +7,16 @@
 */
 int _strlen(char *s)
 {
-char str[100];
-int len;
 int i;
-for (i = 0; i < 100; i++)
+int count = 0;
+int length = 0;
+for (i = 0; s[i] != '\0'; i++)
 {
-str[i] = s[i];
+count++;
 }
-for (i = 0; i < 100; i++)
+for (i = 0; i < count; i++)
 {
-if (str[i] == '\0')
-{
-len = i;
-break;
+length++;
 }
-else
-{
-continue;
-}
-}
-return (len);
+return (length);
 }
