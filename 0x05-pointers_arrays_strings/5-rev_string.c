@@ -10,15 +10,15 @@ int i;
 int count = 0;
 int index;
 char temp;
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
 count++;
 }
 index = count - 1;
 for (i = 0; i < count / 2; i++)
 {
-temp = str[i];
-str[i] = str[count - i - 1];
-str[count - i - 1] = temp;
+temp = s[i];
+s[i] = s[count - i - 1];
+s[count - i - 1] = temp;
 }
 }
