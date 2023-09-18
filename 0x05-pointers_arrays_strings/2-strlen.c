@@ -7,14 +7,14 @@
 */
 int _strlen(char *s)
 {
-char str[20];
+char str[50];
 int len;
 int i;
-for (i = 0; i < 20; i++)
+for (i = 0; i < 50; i++)
 {
 str[i] = s[i];
 }
-for (i = 0; i < 20; i++)
+for (i = 0; i < 50; i++)
 {
 if (str[i] == '\0')
 {
