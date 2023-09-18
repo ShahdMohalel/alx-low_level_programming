@@ -3,19 +3,20 @@
  * _strcpy - copy strings
  * @dest: The parameter "*dest" represents destination of copy
  * @src: The parameter "*src" represents source of copy
- * Return: returns the pointer "dest"
+ * Return: returns the pointer "dest".
 */
 char *_strcpy(char *dest, char *src)
 {
-int i;
-int count = 0;
-for (i = 0; src[i] != '\0'; i++)
+char *dest_start = dest; 
+
+while (*src != '\0')
 {
-count++;
+*dest = *src;
+dest++;
+src++;
 }
-for (i = 0; i < count; i++)
-{
-dest[i] = src[i];
-}
-return (dest);
+
+*dest = '\0';
+
+return dest_start;
 }
