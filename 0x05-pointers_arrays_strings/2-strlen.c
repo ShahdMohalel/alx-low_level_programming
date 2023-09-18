@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * _strlen - return the length of string
  * @s: The parameter "*s" represents the string
@@ -6,14 +7,18 @@
 */
 int _strlen(char *s)
 {
-char str[20] = *s;
-int i;
+char str[20];
 int len;
+int i;
 for (i = 0; i < 20; i++)
 {
-if (str[i] == NULL)
+str[i] = s[i];
+}
+for (i = 0; i < 20; i++)
 {
-i = len;
+if (str[i] == '\0')
+{
+len = i;
 break;
 }
 else
