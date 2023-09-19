@@ -21,7 +21,7 @@ else
 {
 index = (count - 1) / 2;
 }
-for (i = index + 1; str[i] != '\0'; i++)
+for (i = index; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
