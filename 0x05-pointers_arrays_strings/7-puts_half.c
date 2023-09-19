@@ -13,14 +13,9 @@ for (i = 0; str[i] != '\0'; i++)
 {
 count++;
 }
-if (count % 2 == 0)
-{
-index = count / 2;
-}
-else
-{
-index = (count - 1) / 2;
-}
+
+index = (count - 1) / 2 + 1;
+
 for (i = index; i < count; i++)
 {
 _putchar(str[i]);
