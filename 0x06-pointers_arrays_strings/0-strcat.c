@@ -27,9 +27,10 @@ for (i = 0; i < dest_count; i++)
 {
 concat[i] = dest[i];
 }
-for (i = 0; i <= src_count; i++)
+for (i = 0; i < src_count; i++)
 {
 concat[dest_count + i] = src[i];
 }
+concat[concat_size] = '\0';
 return (concat);
 }
