@@ -23,7 +23,7 @@ for (i = 0; dest[i] != '\0'; i++)
 {
 dest_count++;
 }
-concat_size = src_count + dest_count;
+concat_size = n + dest_count;
 concat = (char *)malloc((concat_size + 1) * sizeof(char));
 for (i = 0; i < dest_count; i++)
 {
@@ -33,6 +33,6 @@ for (i = 0; i < n; i++)
 {
 concat[dest_count + i] = src[i];
 }
+concat[concat_size] = '\0';
 return (concat);
-
 }
