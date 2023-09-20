@@ -22,7 +22,7 @@ for (i = 0; dest[i] != '\0'; i++)
 dest_count++;
 }
 concat_size = src_count + dest_count;
-concat = (char *)malloc((concat_size + 1) * sizeof(char));
+concat = (char *)malloc((concat_size) * sizeof(char));
 for (i = 0; i < dest_count; i++)
 {
 concat[i] = dest[i];
