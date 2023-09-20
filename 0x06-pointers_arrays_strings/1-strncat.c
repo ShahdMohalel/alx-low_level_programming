@@ -1,5 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
+/**
+ * _strncat - concatinate strings
+ * @dest: The parameter "dest" represent string
+ * @src: The parameter "src" represent string
+ * Return: return "concat"
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 
