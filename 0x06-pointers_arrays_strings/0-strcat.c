@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _strcat - concatinate strings
  * @dest: The parameter "dest" represents the strings
