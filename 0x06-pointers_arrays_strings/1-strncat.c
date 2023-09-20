@@ -4,6 +4,7 @@
  * _strncat - concatinate strings
  * @dest: The parameter "dest" represent string
  * @src: The parameter "src" represent string
+ * @n: the parameter 'n' represents the number of bytes
  * Return: return "concat"
 */
 char *_strncat(char *dest, char *src, int n)
