@@ -11,6 +11,7 @@ int i;
 int count1 = 0;
 int count2 = 0;
 int count = 0;
+int result;
 for (i = 0; s1[i] != '\0'; i++)
 {
 count1++;
@@ -33,11 +34,14 @@ for (i = 0; i < count; i++)
 {
 if (s1[i] != s2[i])
 {
-return (s1[i] - s2[i]);
+result = s1[i] - s2[i];
+break;
 }
 else
 {
-return (0);
+result = 0;
+break;
 }
 }
+return (result);
 }
