@@ -9,13 +9,12 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-
 int src_count = 0;
 int dest_count = 0;
 int i;
 int concat_size;
 char *concat;
-if ((dest == NULL) && (src == NULL))
+if (dest == NULL && src == NULL)
 {
 return (NULL);
 }
