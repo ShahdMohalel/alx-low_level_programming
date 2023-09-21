@@ -11,12 +11,7 @@ char cletters[] = {'A', 'E', 'O', 'T', 'L'};
 char numbers[] = {'4', '3', '0', '7', '1'};
 int i;
 int j;
-int count = 0;
-for (i = 0; le[i] != '\0'; i++)
-{
-count++;
-}
-for (i = 0; i < count; i++)
+for (i = 0; le[i] != '\n'; i++)
 {
 for (j = 0; j < 5; j++)
 {
