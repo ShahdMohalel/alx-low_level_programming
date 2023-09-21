@@ -32,14 +32,9 @@ count = count2;
 }
 for (i = 0; i < count; i++)
 {
-if (s1[i] != s2[i])
-{
 result = s1[i] - s2[i];
-break;
-}
-else
+if (result != 0)
 {
-result = 0;
 break;
 }
 }
