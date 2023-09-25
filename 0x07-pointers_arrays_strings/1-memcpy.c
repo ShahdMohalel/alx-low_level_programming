@@ -6,9 +6,10 @@
  * @dest: the array "*dest" to copy into.
  * Return: returns the "dest".
 */
-char *_memcpy(char *dest, char *src, unsigned int n){
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
 int i;
-for(i = 0; i < (int)n; i++)
+for (i = 0; i < (int)n; i++)
 {
 dest[i] = src[i];
 }
