@@ -1,5 +1,7 @@
 #include"main.h"
 #include<stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  * set_string - sets the value of a pointer to a char.
  * @s: The parameter "*s" represents the pointer of pointers.
