@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * is_prime_number - is a prime number?
+ * is_prime_recursive - is a prime number?
  * @n: The parameter 'n' represents the number to be checked.
+ * @divisor: The parameter "divisor" represents the number to be checked.
  * Return: 1 if true / 0 if false.
 */
-int is_prime_number(int n)
+int is_prime_recursive(int n, int divisor)
 {
-int i;
 if (n <= 1)
 {
 return (0);
@@ -15,16 +15,22 @@ if (n <= 3)
 {
 return (1);
 }
-if (n % 2 == 0 || n % 3 == 0)
+if (divisor * divisor > n)
 {
-return (0);
-}
-for (i = 5; i * i <= n; i += 6)
-{
-if (n % i == 0 || n % (i + 2) == 0)
-{
-return (0);
-}
-}
 return (1);
+}
+if (n % divisor == 0)
+{
+return (0);
+}
+return (is_prime_recursive(n, divisor + 1));
+}
+/**
+ * is_prime_number - is a prime number?
+ * @n: The parameter 'n' represents the number to be checked.
+ * Return: 1 if true / 0 if false.
+*/
+int is_prime_number(int n)
+{
+return (is_prime_recursive(n, 2));
 }
