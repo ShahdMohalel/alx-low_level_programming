@@ -32,7 +32,7 @@ if (argc == 1)
 for (i = 1; i < argc; i++)
 {
 flag = isalnum(argv[i]);
-if (flag == 0)
+if (flag != 0)
 {
 printf("Error\n");
 return (1);
