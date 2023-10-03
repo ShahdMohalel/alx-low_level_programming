@@ -1,3 +1,9 @@
+#include"main.h"
+/**
+ * _atoi - check numbers sign
+ * @s: The parameter 'n' represents the string.
+ * Return: sign and result.
+*/
 int _atoi(char *s)
 {
 int result = 0;
@@ -21,5 +27,5 @@ while (s[i] >= '0' && s[i] <= '9')
 result = result * 10 + (s[i] - '0');
 i++;
 }
-return (sign * result);
+return (sign *result);
 }
