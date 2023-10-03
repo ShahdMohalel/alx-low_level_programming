@@ -1,2 +1,4 @@
 #!/bin/bash
-ar -rc liball.a find . -type f -name "*.c"
+c_files=$(find . -type f -name "*.c")
+ar rc liball.a $c_files
+ranlib liball.a
