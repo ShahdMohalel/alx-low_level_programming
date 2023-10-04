@@ -19,10 +19,7 @@ for (i = 0; str[i] != '\0'; i++)
 count++;
 }
 new_str = malloc(count *sizeof(char));
-for (i = 0; i < count; i++)
-{
-new_str[i] = str[i];
-}
+strcpy(new_str, str);
 if (new_str == NULL)
 {
 return (NULL);
