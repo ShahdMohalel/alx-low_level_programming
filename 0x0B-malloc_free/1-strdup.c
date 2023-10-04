@@ -23,5 +23,9 @@ for (i = 0; i < count; i++)
 {
 new_str[i] = str[i];
 }
+if (new_str == NULL)
+{
+return (NULL);
+}
 return (new_str);
 }
