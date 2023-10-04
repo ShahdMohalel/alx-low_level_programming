@@ -9,22 +9,17 @@
 */
 char *_strdup(char *str)
 {
-int i;
-char *new_str;
-int count = 0;
-if (str == NULL)
-{
-return (NULL);
-}
-for (i = 0; str[i] != '\0'; i++)
-{
-count++;
-}
-new_str = malloc(count *sizeof(char));
-strcpy(new_str, str);
-if (new_str == NULL)
-{
-return (NULL);
-}
-return (new_str);
+if (str == NULL) {
+        return NULL;
+    }
+
+    char *duplicate = (char *)malloc(strlen(str) + 1);
+
+    if (duplicate == NULL) {
+        return NULL;
+    }
+
+    strcpy(duplicate, str);
+
+    return duplicate;
 }
