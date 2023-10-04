@@ -18,7 +18,7 @@ for (i = 0; str[i] != '\0'; i++)
 {
 count++;
 }
-new_str = malloc(count * sizeof(char));
+new_str = malloc(count *sizeof(char));
 for (i = 0; i < count; i++)
 {
 new_str[i] = str[i];
