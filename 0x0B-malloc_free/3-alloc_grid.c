@@ -27,5 +27,9 @@ for (j = 0; j < width; j++)
 array[i][j] = 0;
 }
 }
+if (array == NULL)
+{
+return (NULL);
+}
 return (array);
 }
