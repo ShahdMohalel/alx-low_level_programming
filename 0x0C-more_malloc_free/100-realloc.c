@@ -38,6 +38,17 @@ strcpy(new_ptr, ptr);
 free(ptr);
 return (new_ptr);
 }
+else if (old_size > new_size)
+{
+new_ptr = malloc(new_size);
+if(new_ptr == NULL)
+{
+return (NULL);
+}
+strncpy(new_ptr, ptr, new_size);
+free(ptr);
+return (new_ptr);
+}
 else
 {
 return (ptr);
