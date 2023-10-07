@@ -18,12 +18,12 @@ if (min > max)
 {
 return (NULL);
 }
-elements = (max - min + 1) * (sizeof(int));
-if (elements >= INT_MAX)
+elements = max - min + 1;
+if ((elements) * (sizeof(int)) >= INT_MAX)
 {
 return (NULL);
 }
-array = malloc(elements);
+array = malloc((elements) * (sizeof(int)));
 if (array == NULL)
 {
 return (NULL);
