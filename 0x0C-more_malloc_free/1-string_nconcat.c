@@ -21,11 +21,11 @@ if (s2 == NULL)
 s2 = "";
 }
 str = malloc(strlen(s1) + n + 1);
-strcpy(str, s1);
-strncat(str, s2, n);
 if (str == NULL)
 {
 return (NULL);
 }
+strcpy(str, s1);
+strncat(str, s2, n);
 return (str);
 }
