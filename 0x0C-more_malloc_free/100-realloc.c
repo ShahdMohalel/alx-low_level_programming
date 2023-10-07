@@ -18,40 +18,23 @@ if (new_size == 0 && ptr != NULL)
 free(ptr);
 return (NULL);
 }
-if (ptr == NULL && new_size != 0)
+if (ptr == NULL || new_size != 0)
 {
 new_ptr = malloc(new_size);
 if (new_ptr == NULL)
 {
 return (NULL);
-}
-return (new_ptr);
 }
 if (new_size > old_size)
 {
-new_ptr = malloc(new_size);
-if (new_ptr == NULL)
-{
-return (NULL);
-}
-strcpy(new_ptr, ptr);
-free(ptr);
-return (new_ptr);
-}
-else if (old_size > new_size)
-{
-new_ptr = malloc(new_size);
-if(new_ptr == NULL)
-{
-return (NULL);
-}
-strncpy(new_ptr, ptr, new_size);
-free(ptr);
-return (new_ptr);
+memcpy(new_ptr, ptr, old_size);
 }
 else
 {
-return (ptr);
+memcpy(new_ptr, ptr, new_size);
 }
-return (NULL);
+free(ptr);
+return (new_ptr);
+}
+return (ptr);
 }
