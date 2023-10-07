@@ -2,6 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
+/**
+ * malloc_checked - check on malloc.
+ * @b: The parameter 'b' represents the number of elements.
+ * Return: pointer to the arr.
+*/
 void *malloc_checked(unsigned int b)
 {
 void *arr;
