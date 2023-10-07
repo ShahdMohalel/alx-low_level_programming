@@ -3,6 +3,13 @@
 #include <string.h>
 #include <limits.h>
 #include "main.h"
+/**
+ * _realloc - reallocate memory.
+ * @ptr: The pointer.
+ * @old_size: the size of ptr.
+ * @new_size: the size of the new pointer.
+ * Return: the new pointer.
+*/
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 void *new_ptr;
@@ -18,7 +25,7 @@ if (new_ptr == NULL)
 {
 return (NULL);
 }
-return new_ptr;
+return (new_ptr);
 }
 if (new_size > old_size)
 {
