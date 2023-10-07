@@ -2,6 +2,12 @@
 #include "main.h"
 #include <stdlib.h>
 #include <ctype.h>
+/**
+ * main - mul.
+ * @argc: command count.
+ * @argv: command array.
+ * Return: 0 always
+*/
 int main(int argc, char **argv)
 {
 int num1;
