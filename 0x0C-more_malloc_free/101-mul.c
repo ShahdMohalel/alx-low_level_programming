@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
-int main(int argc, char argv[])
+#include <stdlib.h>
+#include <ctype.h>
+int main(int argc, char **argv)
 {
 int num1;
 int num2;
 int result;
-if (argc != 2)
+if (argc != 3)
 {
 printf("Error\n");
 exit(98);
