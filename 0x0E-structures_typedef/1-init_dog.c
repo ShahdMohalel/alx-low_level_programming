@@ -1,3 +1,4 @@
+#include "dog.h"
 /**
  * init_dog - initiat struct.
  * @d: The parameter 'd' represents the dog struct
