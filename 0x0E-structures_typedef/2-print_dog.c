@@ -10,17 +10,10 @@ return;
 if (d->name == NULL)
 {
 d->name = "(nil)";
-return;
-}
-if (d->age == NULL)
-{
-d->age = "(nil)";
-return
 }
 if (d->owner == NULL)
 {
 d->owner = "(nil)";
-return
 }
 printf("NAME: %s\n", d->name);
 printf("Age: %f\n", d->age);
