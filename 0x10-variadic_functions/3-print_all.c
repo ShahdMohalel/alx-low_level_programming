@@ -2,12 +2,17 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <string.h>
+/**
+ * print_all - print.
+ * @format: The parameter is the typr of argu.
+ * Return: no return.
+*/
 void print_all(const char * const format, ...)
 {
 va_list ptr;
 int i;
 va_start(ptr, format);
-if(format == NULL && *format == '\0')
+if (format == NULL && *format == '\0')
 {
 return;
 }
