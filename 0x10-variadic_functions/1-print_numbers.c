@@ -18,11 +18,7 @@ for (i = 0; i < n; i++)
 printf("%d", va_arg(ptr, int));
 if (i != n - 1)
 {
-printf("%c ", separator[0] == NULL ? "" : separator[0]);
-}
-else
-{
-printf("");
+printf("%s ", separator);
 }
 }
 printf("\n");
