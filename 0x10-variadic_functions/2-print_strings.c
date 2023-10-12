@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include <stdlib.h>
 /**
  * print_strings - print strings
  * @n: The parameter 'n' represents the number of strings
@@ -15,7 +16,7 @@ va_start(ptr, n);
 for (i = 0; i < n; i++)
 {
 str = va_arg(ptr, char*);
-if (*str != '\0')
+if (*str != '\0' && str != NULL)
 {
 printf("%s", str);
 }
@@ -23,7 +24,7 @@ else
 {
 printf("(nil)");
 }
-if (i < n - 1 && *separator != '\0')
+if (i < n - 1 && separator != NULL && separator[0] != '\0')
 {
 printf("%s ", separator);
 }
