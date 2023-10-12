@@ -27,7 +27,7 @@ if (i < n - 1 && *separator != '\0')
 {
 printf("%s ", separator);
 }
-va_end(ptr);
 }
+va_end(ptr);
 printf("\n");
 }
