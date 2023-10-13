@@ -16,9 +16,12 @@ va_start(ptr, n);
 for (i = 0; i < n; i++)
 {
 str = va_arg(ptr, char*);
-if (str != NULL && *str != '\0')
+if (str != NULL)
+{
+if (*str != '\0')
 {
 printf("%s", str);
+}
 }
 else
 {
