@@ -26,7 +26,7 @@ printf("(nil)");
 }
 if (i < n - 1 && separator != NULL && separator[0] != '\0')
 {
-printf("%s ", separator);
+printf("%s", separator);
 }
 }
 va_end(ptr);
