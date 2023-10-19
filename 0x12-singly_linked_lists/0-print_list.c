@@ -2,7 +2,7 @@
 /**
  * print_list - print linked list
  * @h: pointer to the struct
- * return: num. of nodes
+ * Return: num. of nodes
  */
 size_t print_list(const list_t *h)
 {
