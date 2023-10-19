@@ -24,5 +24,9 @@ return (NULL);
 new_head->str = strdup(str);
 new_head->next = *head;
 *head = new_head;
+if (head == NULL)
+{
+return (NULL);
+}
 return (new_head);
 }
