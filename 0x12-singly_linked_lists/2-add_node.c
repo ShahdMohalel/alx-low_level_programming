@@ -22,6 +22,12 @@ if (head == NULL)
 return (NULL);
 }
 new_head->str = strdup(str);
+if (new_head->str == NULL)
+{
+free(new_head);
+return (NULL);
+}
+new_head->len = strlen(str);
 new_head->next = *head;
 *head = new_head;
 if (head == NULL)
