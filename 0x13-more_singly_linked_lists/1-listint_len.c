@@ -12,6 +12,6 @@ if (h == NULL)
 return (0);
 }
 len++;
-len += print_listint(h->next);
+len += listint_len(h->next);
 return (len);
 }
