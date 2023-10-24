@@ -12,7 +12,7 @@ if (head == NULL || *head == NULL)
 {
 return (0);
 }
-*head = current;
+current = *head;
 del_num = current->n;
 *head = current->next;
 free(current);
