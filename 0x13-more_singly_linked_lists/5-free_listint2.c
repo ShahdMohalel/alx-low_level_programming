@@ -1,9 +1,8 @@
 #include "lists.h"
 /**
- * add_nodeint_end - add end node
+ * free_listint2 - free
  * @head: pointer to the struct
- * @n: num.
- * Return: address to new node of.
+ * Return: no return.
  */
 void free_listint2(listint_t **head)
 {
